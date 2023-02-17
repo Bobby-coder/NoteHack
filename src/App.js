@@ -20,8 +20,8 @@ function App() {
   )
   return (
     <>
-      <div className={theme}>
-        <div className="container">
+      <div className={`notehack-container-wrapper ${theme}`}>
+        <div className="notehack-container">
           <Header 
             theme={theme} 
             setTheme={setTheme} 

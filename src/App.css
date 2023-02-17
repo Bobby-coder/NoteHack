@@ -7,7 +7,11 @@
   list-style: none;
 }
 
-.container {
+.notehack-container-wrapper {
+  min-height: 100vh;
+}
+
+.notehack-container {
   max-width: 1200px;
   margin: auto;
   padding: 10px 10px;
