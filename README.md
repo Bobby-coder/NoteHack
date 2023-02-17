@@ -1,6 +1,6 @@
 # NoteHack 🔥
 
-### **NoteHack** is a fully functional note taking react app where a user can add, update & delete his/her notes.
+### **NoteHack** is a fully functional note taking react app where a user can add, update & delete notes.
 
 ## Features
 
