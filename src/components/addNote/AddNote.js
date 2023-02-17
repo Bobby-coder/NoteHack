@@ -1,3 +1,5 @@
+import './AddNote.css'
+
 const AddNote = ({ note, noteList, setNote, setNoteList }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -32,15 +34,16 @@ const AddNote = ({ note, noteList, setNote, setNoteList }) => {
   return (
     <>
       <div className="add-note-container">
-        <form onSubmit={handleSubmit}>
+        <form className='add-note-form' onSubmit={handleSubmit}>
           <input
             type="text"
             name="note"
-            placeholder="add note"
+            className='add-note-input'
+            placeholder="Add note"
             value={note.name || ''}
             onChange={(e) => setNote({ ...note, name: e.target.value })}
           />
-          <button type="submit">{note.id ? "Update" : "Add"}</button>
+          <button className='add-note-button' type="submit">{note.id ? "Update" : "Add"}</button>
         </form>
       </div>
     </>
