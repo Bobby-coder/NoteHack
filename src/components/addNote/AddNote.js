@@ -3,8 +3,7 @@ import './AddNote.css'
 const AddNote = ({ note, noteList, setNote, setNoteList }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (e.target.note.value.trim() === "") {
-    } else {
+    if (e.target.note.value.trim() === "") { /* Does nothing */ } else {
       if (note.id) {
         let newDate = new Date();
         let updatedNoteList = noteList.map((currEle) =>
