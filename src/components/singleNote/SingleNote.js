@@ -1,8 +1,10 @@
+import {MdEdit, MdDelete} from 'react-icons/md'
+import './SingleNote.css';
+
 const SingleNote = ({
   name,
   id,
   date,
-  note,
   setNote,
   noteList,
   setNoteList,
@@ -18,14 +20,14 @@ const SingleNote = ({
   };
   return (
     <>
-      <div className="singlenote-container">
-        <p>
+      <div className="single-note-container">
+        <p className='single-note-info'>
           <span className="name">{name}</span>
           <span className="date">{date}</span>
         </p>
-        <div>
-          <button onClick={handleEdit}>Edit</button>
-          <button onClick={handleDelete}>Delete</button>
+        <div className='single-note-buttons'>
+          <MdEdit className='edit' onClick={handleEdit}/>
+          <MdDelete className='delete' onClick={handleDelete} />
         </div>
       </div>
     </>
