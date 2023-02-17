@@ -16,18 +16,23 @@
     cursor: pointer;
     color: #525252;
   }
+
+  .header-theme-selector {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
   
   .header-theme-selector span{
     height: 20px;
     width: 20px;
     border-radius: 50%;
     display: inline-block;
-    margin-left: 5px;
     cursor: pointer;
     border: 1px solid #dfdfdf;
   }
   
-  .header-container .header-theme-selector .active-theme{
+  .header-theme-selector .active-theme{
     height: 30px;
     width: 30px;
   }
