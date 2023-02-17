@@ -18,13 +18,13 @@
 - ### **Theme 1** 
 
 <div align="center">
-  <img src="https://ibb.co/W0PQ3K2" alt="NoteHack Screenshot" width="100%" target="_blank" />
+  <img src="screenshots/SS1.png" alt="NoteHack Screenshot" width="100%" target="_blank" />
   <br>
 </div>
 
 - ### **Theme 2** 
 <div align="center">
-  <img src="https://ibb.co/1J188KY" alt="NoteHack Screenshot" width="100%" target="_blank" />
+  <img src="screenshots/SS2.png" alt="NoteHack Screenshot" width="100%" target="_blank" />
   <br>
 </div>
 
