@@ -1,4 +1,5 @@
 import SingleNote from "../singleNote/SingleNote";
+import './NoteList.css'
 
 const NoteList = ({ note, noteList, setNote, setNoteList }) => {
   const handleClear = () => {
