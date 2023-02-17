@@ -7,10 +7,6 @@
   list-style: none;
 }
 
-.app {
-  height: 100vh;
-}
-
 .container {
   max-width: 1200px;
   margin: auto;

@@ -20,7 +20,7 @@ function App() {
   )
   return (
     <>
-      <div className={`app ${theme}`}>
+      <div className={theme}>
         <div className="container">
           <Header 
             theme={theme} 
