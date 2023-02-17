@@ -1,14 +1,5 @@
-import { useEffect, useState } from "react";
 import "./Header.css";
-const Header = () => {
-  const [theme, setTheme] = useState(
-    JSON.parse(localStorage.getItem("theme")) || "gradient-one"
-  );
-  useEffect(() => {
-    localStorage.setItem("theme", JSON.stringify(theme));
-    document.documentElement.removeAttribute("class");
-    document.documentElement.classList.add(theme);
-  }, [theme]);
+const Header = ({ theme, setTheme }) => {
   return (
     <>
       <header className="header-container">
